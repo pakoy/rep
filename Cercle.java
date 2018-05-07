@@ -20,17 +20,18 @@ public class Cercle {
 	public void setY(float y) {
 		this.y = y;
 	}
-	@Override
-	public boolean equals(Object arg0) {
-		// TODO Auto-generated method stub
-		return super.equals(arg0);
-	}
+	
+	
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return super.toString();
+		
+		return "El cercle te un atribut x:"+ x +"i un atribut y :"+ y ;
 	}
 	
+	public boolean equals (Cercle c ) {
+		
+		return x==(c.getX() );
+	}
 	public Cercle () {
 		
 		this.x = 2;
